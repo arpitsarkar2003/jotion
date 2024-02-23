@@ -43,9 +43,9 @@ const DocumentsPage = () => {
         className="hidden dark:block"
       />
       <h2 className="text-lg font-medium">
-        Welcome to {user?.firstName}&apos;s Jotion
+        Welcome to {user?.firstName}&apos;s Miro
       </h2>
-      <Button onClick={onCreate}>
+      <Button onClick={onCreate} className="bg-orange-500">
         <PlusCircle className="h-4 w-4 mr-2" />
         Create a note
       </Button>

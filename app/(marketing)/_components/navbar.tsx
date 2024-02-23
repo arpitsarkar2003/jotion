@@ -34,8 +34,8 @@ export const Navbar = () => {
                         </Button>
                     </SignInButton>
                     <SignInButton mode="modal">
-                        <Button size="sm">
-                            Get Jotion Free
+                        <Button size="sm" className="bg-orange-500">
+                            Get Miro Free
                         </Button>
                     </SignInButton>
                 </>
@@ -44,7 +44,7 @@ export const Navbar = () => {
           <>
             <Button variant="ghost" size="sm" asChild>
               <Link href="/documents">
-                Enter Jotion <ArrowBigRight className="h-4 w-4 ml-2" />
+                Enter Miro <ArrowBigRight className="h-4 w-4 ml-2" />
               </Link>
             </Button>
             <UserButton

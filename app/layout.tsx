@@ -10,7 +10,7 @@ import { EdgeStoreProvider } from '@/lib/edgestore';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Jotion',
+  title: 'Miro',
   description: 'The connected Workspace where better, faster work happens.',
   icons: {
     icon: [
@@ -21,8 +21,8 @@ export const metadata: Metadata = {
       },
       {
         media: "(prefers-color-scheme: dark)",
-        url: "/logo-dark.svg",
-        href: "/logo-dark.svg",
+        url: "/logo.svg",
+        href: "/logo.svg",
       },
     ]
   }
@@ -43,7 +43,7 @@ export default function RootLayout({
               defaultTheme='system'
               enableSystem
               disableTransitionOnChange
-              storageKey='jotion-theme-2'>
+              storageKey='Miro-theme-2'>
               <Toaster position='bottom-center' />
               <ModalProvider />
               {children}

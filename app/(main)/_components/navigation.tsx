@@ -20,6 +20,7 @@ import { TrashBox } from "./trash-box";
 import { useSearch } from "@/hooks/use-search";
 import { useSettings } from "@/hooks/use-settings";
 import { Navbar } from "./navbar";
+import Image from "next/image";
 
 
 export const Navigation = () => {
@@ -147,6 +148,17 @@ export const Navigation = () => {
           <ChevronsLeft className="h-6 w-6" />
         </div>
         <div>
+          <div className="flex items-center gap-x-2 px-4 py-2">
+             <Image
+        src="/logo.svg"
+        height="50"
+        width="50"
+        alt="Empty"
+        className="dark:hidden"
+      />
+      <h1 className="text-xl font-medium">Miro</h1>
+          </div>
+       
           <UserItem />
           <Item
             label="Search"
