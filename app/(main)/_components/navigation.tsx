@@ -158,7 +158,7 @@ export const Navigation = () => {
                 alt="Empty"
                 className="dark:hidden"
               />
-              <h1 className="text-xl font-medium">Miro</h1>
+              <h1 className="text-xl font-medium">Jotion</h1>
             </div>
           </Link>
 

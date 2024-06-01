@@ -52,7 +52,7 @@ export const SearchCommand = () => {
   return (
       <CommandDialog open={isOpen} onOpenChange={toggle}>
             <CommandInput
-                placeholder={`Search ${user?.fullName}'s Miro...`}
+                placeholder={`Search ${user?.fullName}'s Jotion...`}
             />
             <CommandList>
                 <CommandEmpty>No result found.</CommandEmpty>
